@@ -23,9 +23,9 @@ E o código final ficará assim:
     
     janela.mainloop()
 
-=======================================================
+---
 		 
-DEFINIÇÕES	 
+# DEFINIÇÕES	 
 
 O nome Tkinter vem da expressão Tk Interface
 
@@ -61,9 +61,9 @@ frame é a unidade básica de organização de layout complexo.
 Chield-parent:
 chield-parent é o nome da relação entre um widget e seu container. Um campo adicionado a uma janela é uma relação parent-chield, onde a janela é o parent e o campo o chield. 
 
-========================================================
+---
 
-O código Minimo
+# O código Minimo
 
     # Importando o módulo ↓
     import tkinter as tk 
@@ -84,16 +84,17 @@ O código Minimo
     # Executando ↓
     janela.mainloop()
 
-========================================================
+---
 	
-Os 3 pilares doDesevolvimento de aplicações gráficas
+# Os 3 pilares doDesevolvimento de aplicações gráficas
 
 1) Gerenciadores de Leiaute
 2) Widget (COMPONENTES DE TELA) 
 3) Eventos 
 
-========================================================
-Gerenciador de layout	
+---
+
+# Gerenciador de layout	
  
 Gerenciador de layout é um widget que gerencia o posicionamento dos componentes dentro de um contêiner. Todos os contêiners devem utilizar um gerenciador de layout para exibir os Widgets, e cada um deles possui uma caracteristica bem definida.
 
