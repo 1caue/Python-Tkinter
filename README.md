@@ -107,5 +107,22 @@ pack - empacota os widgets na horizontal ou vertical
 
 grid - os widgets são inseridos num sistema de células de uma tabela
 
-Place:
+Place
 O gerenciador deleiaute place é o gerenciador que nos permite definir o lugar onde nós queremos o componente
+
+---
+
+# Gerenciador de Leiaute pack  
+
+- PACK
+A constante "Top" Representa a parte superior, a "Left" Representa o lado esquerdo, o "Right" Representa o lado direito e o "Bottom" representa a parte inferior
+EX:
+
+	  "side=TOP"
+
+---
+
+# Propiedade Side
+
+Através da propiedade side definimos qual o lado que nós queremos posicionar o nosso componente 
+Os principais argumentos que você pode usar com o pack são side (lado), fill (preenchimento), expand (expansão), e anchor (âncora). O argumento side define em qual lado do container o widget será colocado. O argumento fill especifica se o widget deve preencher o espaço alocado a ele, e expand determina se o widget deve se expandir para preencher qualquer espaço extra disponível. O argumento anchor controla como o widget é ancorado dentro do espaço alocado a ele.
