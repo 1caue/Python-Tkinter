@@ -145,5 +145,40 @@ Ela aceita valores como "n", "s", "e", "w" e suas combinações, representando o
 
 A utilização da propriedade fill em Tkinter está associada ao método pack, que é um dos gerenciadores de layout disponíveis nesta biblioteca. Se estiver utilizando outro gerenciador de layout, como grid ou place, a abordagem pode ser diferente. Certifique-se de ajustar a propriedade fill de acordo com o gerenciador de layout que estiver utilizando.
 
+---
 
+# Propiedade expand
+
+- A propiedade expand não irá fazer com que os nossos widgets se expande mas sim fará com que eles tenham o mesmo tamanho
+
+A propriedade "expand" em Python com a biblioteca tkinter é usada para especificar se um widget deve se expandir para preencher qualquer espaço extra no contêiner (normalmente um widget de um layout de grade) disponível para ele. Se definido como "True", o widget expandirá para preencher o espaço disponível.
+
+---
+
+# Gerenciador de leiaute Grid 
+
+- Definimos a posição de cada widget com o método grid(), que recebe os parâmetros row e column, com a respectiva posição e numeração de cada linha e coluna.
+
+O gerenciador de leiaute "grid" em tkinter é um método de organização de widgets em uma janela ou em um frame. Com esse gerenciador, você pode organizar os widgets em linhas e colunas, semelhante a uma tabela. Você pode especificar em qual linha e coluna um widget deve ser colocado e quantas linhas e colunas ele deve ocupar
+
+---
+
+# Propiedade Row e Columm (Linha e coluna)
+
+As propriedades "row" e "column" em tkinter são usadas em conjunto com o gerenciador de leiaute "grid". Elas são usadas para posicionar um widget em uma determinada linha e coluna dentro de um contêiner, como uma janela ou um frame. Você pode atribuir valores inteiros a essas propriedades para especificar a posição de um widget. Por exemplo, se você definir "row=0" e "column=0" para um widget, ele será posicionado no canto superior esquerdo do contêiner. Com o gerenciador de leiaute "grid", você pode organizar os widgets em uma grade, determinando onde eles devem ser colocados em termos de linhas e colunas.
+
+	from tkinter import * 
+	
+	janela = Tk()
+	
+	lb1 = Label(janela, text="Label 1")
+	lb2 = Label(janela, text="Label 2")
+	
+	lb1.grid(row=1000, column=1000)
+	lb2.grid(row=2000, column=2000)
+	
+	
+	janela.geometry("1000x200+-600+200")
+	
+	janela.mainloop()
 
