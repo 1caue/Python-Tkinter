@@ -135,4 +135,15 @@ Os principais argumentos que você pode usar com o pack são side (lado), fill (
 
 ![](![image](https://github.com/1caue/Python-Tkinter/assets/142410809/5cbac3d5-2bd5-46b3-9dcf-0b6327f62f33)
 
-A propriedade anchor em tkinter é usada para definir a posição de um widget em relação ao ponto em que está localizado. Ela aceita valores como "n", "s", "e", "w" e suas combinações, representando os pontos cardeais (norte, sul, leste, oeste) e também combinações como "nw", "ne", "sw", "se" para diagonais. Isso ajuda a determinar a direção em que um widget se expande em seu contêiner. Por exemplo, se um widget tiver o valor de anchor definido como "center", ele ficará centralizado em relação ao ponto definido no contêiner. 
+A propriedade anchor em tkinter é usada para definir a posição de um widget em relação ao ponto em que está localizado. 
+
+Ela aceita valores como "n", "s", "e", "w" e suas combinações, representando os pontos cardeais (norte, sul, leste, oeste) e também combinações como "nw", "ne", "sw", "se" para diagonais. Isso ajuda a determinar a direção em que um widget se expande em seu contêiner. Por exemplo, se um widget tiver o valor de anchor definido como "center", ele ficará centralizado em relação ao ponto definido no contêiner. 
+
+---
+
+# Propiedade Fill
+
+A utilização da propriedade fill em Tkinter está associada ao método pack, que é um dos gerenciadores de layout disponíveis nesta biblioteca. Se estiver utilizando outro gerenciador de layout, como grid ou place, a abordagem pode ser diferente. Certifique-se de ajustar a propriedade fill de acordo com o gerenciador de layout que estiver utilizando.
+
+
+
