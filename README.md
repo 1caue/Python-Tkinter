@@ -126,3 +126,13 @@ EX:
 
 Através da propiedade side definimos qual o lado que nós queremos posicionar o nosso componente 
 Os principais argumentos que você pode usar com o pack são side (lado), fill (preenchimento), expand (expansão), e anchor (âncora). O argumento side define em qual lado do container o widget será colocado. O argumento fill especifica se o widget deve preencher o espaço alocado a ele, e expand determina se o widget deve se expandir para preencher qualquer espaço extra disponível. O argumento anchor controla como o widget é ancorado dentro do espaço alocado a ele.
+
+---
+
+# Propiedade anchor 
+
+- A Propiedade anchor define os sentidos da mesma forma que está defininido numa bussola
+
+![](![image](https://github.com/1caue/Python-Tkinter/assets/142410809/5cbac3d5-2bd5-46b3-9dcf-0b6327f62f33)
+
+A propriedade anchor em tkinter é usada para definir a posição de um widget em relação ao ponto em que está localizado. Ela aceita valores como "n", "s", "e", "w" e suas combinações, representando os pontos cardeais (norte, sul, leste, oeste) e também combinações como "nw", "ne", "sw", "se" para diagonais. Isso ajuda a determinar a direção em que um widget se expande em seu contêiner. Por exemplo, se um widget tiver o valor de anchor definido como "center", ele ficará centralizado em relação ao ponto definido no contêiner. 
