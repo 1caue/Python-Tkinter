@@ -182,3 +182,29 @@ As propriedades "row" e "column" em tkinter são usadas em conjunto com o gerenc
 	
 	janela.mainloop()
 
+---
+
+# Propriedade Sticky
+
+Em Tkinter, a propriedade sticky é usada em conjunto com a propriedade grid para especificar em que direção um widget deve se expandir para preencher o espaço disponível dentro de uma célula de grade. A propriedade sticky aceita uma ou mais combinações de pontos cardeais (N, E, S, W) ou o ponto cardeal central (C) para indicar a direção de expansão. Aqui está como ela funciona:
+
+- N: Norte (topo)
+- S: Sul (base)
+- E: Leste (direita)
+- W: Oeste (esquerda)
+- C: Central
+
+Quando você define a propriedade sticky em um widget durante a chamada grid, o widget se expandirá na direção especificada para preencher o espaço alocado na célula da grade.
+
+Ex: 
+
+	lbHORIZONTAL.grid(row=1, column=0, sticky=E)
+	lbVERTICAL.grid(row=0, column=1, sticky=N)
+
+---
+
+# Propiedade rowspan e columnspan
+
+Quando você está organizando widgets em uma grade usando o gerenciador de layout grid do Tkinter, pode usar essas propriedades para especificar quantas linhas ou colunas adjacentes um widget deve ocupar.
+
+Por exemplo, se você tem um widget que deve se estender por duas linhas e duas colunas, você pode definir rowspan=2 e columnspan=2 para esse widget.
